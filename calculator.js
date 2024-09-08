@@ -1,2 +1,2 @@
-const product = 71 * 839 * 1471 * 6857;
+const product = 913 * 993;
 console.log(product);

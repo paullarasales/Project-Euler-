@@ -7,10 +7,10 @@ function isPalindrome(num) {
 function largestPalindromeProduct() {
     let largestPalindrome = 0;
 
-    for (let i = 999; i >= 100; i--) {
-        for (let j = i; j >= 10; j--) {
+    for (let i = 20; i >= 1; i--) {
+        for (let j = i; j >= 1; j--) {
             const product = i * j;
-
+            console.log(` i = ${i}, j = ${j}, product = ${product}`);
             if (isPalindrome(product) && product > largestPalindrome) {
                 largestPalindrome = product;
             }
