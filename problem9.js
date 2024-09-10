@@ -7,11 +7,11 @@ function sumSquareDifference(n) {
     sum += i;
   }
 
-  let squareOfSum = sum * sum; // Correct variable name here
-  let result = squareOfSum - sumOfSquares; // Use the correct variable name
+  let squareOfSum = sum * sum;
+  let result = squareOfSum - sumOfSquares;
 
   return result;
 }
 
-console.log(sumSquareDifference(10)); // Output: 2640
+console.log(sumSquareDifference(100));
 
